@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="oblig1.js"></script>
+</head>
+<body>
+<h1>Bestilling av kinobiletter</h1>
+<div>
+    Velg film: <select id="filmer">
+    <option>Velg film</option>
+    <option>Harry Potter</option>
+    <option>Lord of the rings</option>
+    <option>Spider man</option>
+</select>
+    <p style="color: red" id="feilFilm"></p>
+</div>
+<br>
+<div>
+Antall: <input id="antall" style="width: 0.9em;">
+<p id="feilAntall" style="color: red"></p>
+</div>
+<br>
+<div>
+    <ul style="list-style: none;">
+        <li>fornavn: <input id="fornavn" style="width: 10em;"> <p style="color: red" id="feilfornavn"></p></li>
+
+        <br>
+        <li>etternavn: <input id="etternavn" style="width:10em;"></li>
+        <p style="color: red" id="feiletternavn"></p>
+        <br>
+        <li>Telefonnr: <input id="tlf" style="width: 10em;"></li>
+        <p style="color: red" id="feiltlf"></p>
+        <br>
+        <li>Epost: <input id="epost" style="width: 10em; margin-right: 1em;"></li>
+        <p style="color: red" id="feilepost"></p>
+    </ul>
+</div>
+<div>
+    <button onclick="kjøpbilleter()">kjøp billett</button>
+    <H3>
+        ALLE BILLETTER
+
+    </H3>
+   <div id="output"></div>
+</div>
+<div>
+    <button onclick="slett()"> slett alle billettene</button>
+</div>
+</body>
+</html>
