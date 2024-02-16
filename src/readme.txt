@@ -1,0 +1,1 @@
+jeg vil beskrive hvordan jeg har løst min oblig
